@@ -1,0 +1,485 @@
+@charset "UTF-8";
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #240046;
+  color: #C0E1DE;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body section {
+  flex: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 1em 3em 0;
+  scroll-snap-align: start;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(233, 226, 226);
+  outline: 1px solid rgb(215, 216, 216);
+  border-radius: 10px;
+}
+
+.intro-container {
+  display: flex;
+  color: #F5F5F5;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+.intro-container .right {
+  width: 5%;
+  color: rgba(154, 130, 177, 0.5098039216);
+  margin-top: -22em;
+}
+.intro-container .right p {
+  font-size: 1.5em;
+}
+.intro-container .right #num {
+  padding-bottom: 1em;
+}
+.intro-container .right #part {
+  transform-origin: 10px 18px;
+  transform: rotate(90deg);
+  letter-spacing: 1em;
+}
+.intro-container .left {
+  margin-right: 9em;
+}
+.intro-container .left #greet {
+  padding-bottom: 1em;
+  letter-spacing: 1px;
+}
+.intro-container .left #name {
+  font-size: 80px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: "Lexend", sans-serif;
+}
+.intro-container .left #sub-heading {
+  font-size: 50px;
+  color: #6F6F6F;
+  color: #C0E1DE;
+  font-family: "Lexend", sans-serif;
+}
+.intro-container .left #desc {
+  padding-top: 2em;
+  line-height: 2em;
+  letter-spacing: 1px;
+  padding-bottom: 2em;
+  font-size: 18px;
+  width: 90%;
+  text-align: justify;
+}
+.intro-container .left #btn {
+  background-color: #C0E1DE;
+  color: #240046;
+  padding: 1em 2em;
+  width: 15em;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.intro-container .left #btn:hover {
+  cursor: pointer;
+}
+.intro-container .left .socmeds .fa-brands {
+  font-size: 30px;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+.intro-container .left .socmeds .fa-brands:hover {
+  color: #C0E1DE;
+  cursor: pointer;
+}
+
+.proj-container {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  color: #240046;
+}
+.proj-container .left {
+  width: 5%;
+  color: rgba(41, 55, 54, 0.5215686275);
+  margin-top: -20em;
+}
+.proj-container .left p {
+  font-size: 1.5em;
+}
+.proj-container .left #num {
+  padding-bottom: 1em;
+}
+.proj-container .left #part {
+  transform-origin: 150px 130px;
+  transform: rotate(-90deg);
+  letter-spacing: 1em;
+}
+.proj-container .right {
+  margin-left: 10em;
+  width: 90%;
+  margin-top: -2em;
+}
+.proj-container #title {
+  font-size: 50px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+}
+.proj-container #desc {
+  font-size: 20px;
+  padding-top: 1em;
+}
+.proj-container .works-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.proj-container .works-container p {
+  padding-top: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.proj-container img {
+  width: 30em;
+  height: 20em;
+  margin-bottom: 2em;
+}
+.proj-container img:hover {
+  cursor: pointer;
+}
+.proj-container #btn {
+  background-color: #C0E1DE;
+  color: #240046;
+  padding: 1em 5em;
+  width: 19em;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+}
+.proj-container #btn:hover {
+  cursor: pointer;
+}
+
+.process {
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  color: #240046;
+  justify-content: space-between;
+  margin-top: -2em;
+  height: 85vh !important;
+}
+.process .right {
+  width: 5%;
+  color: rgba(154, 130, 177, 0.5098039216);
+  margin-top: -20em;
+}
+.process .right p {
+  font-size: 1.5em;
+}
+.process .right #num {
+  padding-bottom: 0.3em;
+}
+.process .right #part {
+  transform-origin: 10px 20px;
+  transform: rotate(90deg);
+  letter-spacing: 0.5em;
+  width: 25em;
+  text-align: center;
+  line-height: 2em;
+}
+.process .left {
+  position: relative;
+  width: 90%;
+  color: #240046;
+}
+.process .left .title {
+  width: 20em;
+  padding-top: 4em;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+}
+.process .left #sub-title {
+  font-size: 80px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+.process .left a {
+  background-color: #F5F5F5;
+  color: #240046;
+  padding: 1em 2em;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.process .left a:hover {
+  cursor: pointer;
+}
+.process .left .img-container .img {
+  width: 17em;
+  height: 15em;
+  background-color: #6F6F6F;
+}
+.process .left .img-container .img img {
+  width: 100%;
+  height: 100%;
+}
+.process .left .img-container .one {
+  position: absolute;
+  left: 28em;
+  top: -2em;
+  z-index: 2;
+}
+.process .left .img-container .two {
+  position: absolute;
+  left: 43em;
+  top: 5em;
+  background-color: blue;
+  z-index: 1;
+}
+.process .left .img-container .three {
+  position: absolute;
+  background-color: red;
+  top: 15em;
+  left: 29em;
+}
+.process .left #btn {
+  background-color: #C0E1DE;
+  color: #240046;
+  padding: 1em 4.5em;
+  width: 20em;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.process .left #btn:hover {
+  cursor: pointer;
+}
+
+.experiences {
+  align-items: center;
+  justify-content: space-between;
+}
+.experiences .left {
+  width: 5%;
+  color: rgba(154, 130, 177, 0.5098039216);
+  margin-top: -15em;
+  margin-left: 1em;
+}
+.experiences .left p {
+  font-size: 1.5em;
+}
+.experiences .left #num {
+  padding-bottom: 6em;
+}
+.experiences .left #part {
+  transform-origin: 140px 140px;
+  transform: rotate(-90deg);
+  letter-spacing: 1em;
+}
+.experiences .right {
+  width: 90%;
+  margin-left: 7em;
+  color: #F5F5F5;
+}
+.experiences .right #title {
+  font-size: 50px;
+  margin-bottom: 1.4em;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+}
+.experiences .right .tr-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2em;
+}
+.experiences .right .tr-container #tr-title {
+  padding-right: 3em;
+  width: 30%;
+}
+.experiences .right .tr-container .tr-title {
+  list-style: none;
+}
+.experiences .right .tr-container .tr-title > li::before {
+  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #C0E1DE; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  margin-bottom: 2em;
+}
+.experiences .right .tr-container .tr-title li {
+  cursor: pointer;
+}
+.experiences .right .tr-container .tr-title li::marker {
+  font-size: 5em;
+}
+.experiences .right #training-content {
+  width: 60%;
+}
+.experiences .right .hidden {
+  display: none;
+}
+.experiences .right #training-name {
+  font-size: 1.5em;
+  font-size: 800;
+  padding-bottom: 0.2em;
+  color: #C0E1DE;
+}
+.experiences .right #date {
+  padding-bottom: 2em;
+}
+.experiences .right .triangle-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.experiences .right .triangle-list li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 1.4em;
+}
+.experiences .right .triangle-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid #C0E1DE;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F5F5F5;
+}
+.contact .right {
+  width: 5%;
+  color: rgba(154, 130, 177, 0.5098039216);
+  margin-top: -20em;
+}
+.contact .right p {
+  font-size: 1.5em;
+}
+.contact .right #num {
+  padding-bottom: 0.3em;
+}
+.contact .right #part {
+  transform-origin: 6px 25px;
+  transform: rotate(90deg);
+  letter-spacing: 0.5em;
+  width: 15em;
+  text-align: center;
+}
+.contact .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact .left #title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+}
+.contact .left .sub-container {
+  background-color: #300657;
+  padding: 2em 2em;
+  border-radius: 10px;
+  margin-right: 20em;
+  width: 80%;
+}
+.contact .left .top-form {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .left .middle-form, .contact .left .last-form {
+  margin-top: 2em;
+}
+.contact .left .last-form {
+  margin-bottom: 2em;
+}
+.contact .left input[type=text], .contact .left input[type=email] {
+  background-color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3254901961);
+  border-radius: 5px;
+  width: 25em;
+  height: 2.3em;
+  padding: 1em;
+  font-weight: 200;
+  margin-top: 0.5em;
+  color: #240046;
+}
+.contact .left textarea {
+  background-color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3254901961);
+  border-radius: 5px;
+  width: 28em;
+  height: 2.3em;
+  padding: 1em;
+  font-weight: 200;
+  margin-top: 0.6em;
+  color: #240046;
+}
+.contact .left #email-subject, .contact .left #message {
+  width: 100%;
+}
+.contact .left #message {
+  height: 8em;
+}
+.contact .left #btn {
+  background-color: #C0E1DE;
+  color: #240046;
+  padding: 1em 2em;
+  width: 20em;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+}
+.contact .left #btn:hover {
+  cursor: pointer;
+}
+.contact .left #send {
+  background-color: #C0E1DE;
+  color: #240046;
+  padding: 1em 2em;
+  width: 20em;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+}
+.contact .left #send:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

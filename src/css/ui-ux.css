@@ -1,0 +1,157 @@
+body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #A8E2C5;
+  height: 30em;
+}
+.header img {
+  height: 30em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.problems {
+  background-color: #d6f1e3;
+  width: 100%;
+  padding: 3em 7em;
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: 1em 0 2em;
+}
+
+.container {
+  margin: 0 7em 5em;
+  line-height: 1.6em;
+}
+.container .desc {
+  display: flex;
+  justify-content: space-between;
+}
+.container #sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 1em;
+}
+.container #subs {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.container #desc {
+  letter-spacing: 1px;
+  text-align: justify;
+  font-size: 16px;
+}
+.container #list {
+  padding-bottom: 1em;
+  font-size: 17px;
+}
+.container #list #bold {
+  font-weight: 600;
+  margin: 1em 0 0 0em;
+}
+.container .wireframes {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .wireframes img {
+  width: 35em;
+  height: 25em;
+  margin-bottom: 2em;
+}
+.container .wireframes #login {
+  width: 30em;
+  height: 20em;
+}
+.container .mobile {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .mobile img {
+  width: 17em;
+  height: 35em;
+  margin: 0 0.6em 2em 0;
+  border: 1px solid #efefef;
+}
+.container #color {
+  height: 35em;
+  width: 60em;
+  margin-bottom: 3em;
+}
+
+.siklistowf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ui {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6em;
+  align-items: center;
+  width: 100%;
+}
+.ui #login {
+  width: 35em;
+  height: 25em;
+}
+.ui img {
+  width: 40em;
+  height: 35em;
+}
+.ui #popup {
+  height: 25em;
+}
+.ui .desc {
+  width: 40%;
+  text-align: justify;
+}
+
+.visuals {
+  background-color: #FAF6F6;
+  width: 100%;
+  padding: 2em 7em;
+  margin: 2em 0;
+  text-align: justify;
+}
+.visuals #sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 1em;
+}
+.visuals p {
+  line-height: 1.8em;
+}
+
+.words {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#words {
+  width: 40em;
+  height: 60em;
+}
+
+#words2 {
+  width: 40em;
+  height: 40em;
+}
+
+#words3 {
+  width: 40em;
+  height: 30em;
+}/*# sourceMappingURL=ui-ux.css.map */
